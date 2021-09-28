@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.author             = { 'LeiZhengFa' => '12456715@qq.com' }
   spec.source       = { :git => "https://github.com/cowboyfzl/KuaiYinADSDK.git", :tag => "#{spec.version}"}
-  spec.platform      = :ios #支持平台
+  spec.platform      = :ios, "10.0" #支持平台
   spec.ios.deployment_target = "10.0"#支持iOS最低版本
   spec.frameworks    = 'UIKit','AVFoundation'
    # Swift Versions
