@@ -439,7 +439,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0LisqlsfBfeqyASFNKKAGgGDdZs=
+		PPUjrVehAAQuop/dzSwh2yOJ0FQ=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -447,27 +447,27 @@
 		</data>
 		<key>Modules/KuaiYinAd.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		c2QsBBUOMbzf8ZZWFB13iaVYiw4=
+		tip1DrcTEAtk72gyUGctObwX0Fg=
 		</data>
 		<key>Modules/KuaiYinAd.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		c2QsBBUOMbzf8ZZWFB13iaVYiw4=
+		tip1DrcTEAtk72gyUGctObwX0Fg=
 		</data>
 		<key>Modules/KuaiYinAd.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		nCiv46d+99JaJCZzTAdkJkJylPA=
+		bSOKDjC4LObrCJWQsTflWi0hf5U=
 		</data>
 		<key>Modules/KuaiYinAd.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		4fS/lz45UoztkBF/7etSs3Yxqpk=
+		Uq7mF8BqbYgab0yi/CSyYYoLhbw=
 		</data>
 		<key>Modules/KuaiYinAd.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		nCiv46d+99JaJCZzTAdkJkJylPA=
+		bSOKDjC4LObrCJWQsTflWi0hf5U=
 		</data>
 		<key>Modules/KuaiYinAd.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		4fS/lz45UoztkBF/7etSs3Yxqpk=
+		Uq7mF8BqbYgab0yi/CSyYYoLhbw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1538,66 +1538,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			c2QsBBUOMbzf8ZZWFB13iaVYiw4=
+			tip1DrcTEAtk72gyUGctObwX0Fg=
 			</data>
 			<key>hash2</key>
 			<data>
-			aDp9KWhMpRBT5LtxkF3oRCFWIJ6wZxRbuBtUiqn55pk=
+			CilCZmb0cLtvo7dkmyg5qxUTg8dEt/u5BRVbTeiEwFU=
 			</data>
 		</dict>
 		<key>Modules/KuaiYinAd.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			c2QsBBUOMbzf8ZZWFB13iaVYiw4=
+			tip1DrcTEAtk72gyUGctObwX0Fg=
 			</data>
 			<key>hash2</key>
 			<data>
-			aDp9KWhMpRBT5LtxkF3oRCFWIJ6wZxRbuBtUiqn55pk=
+			CilCZmb0cLtvo7dkmyg5qxUTg8dEt/u5BRVbTeiEwFU=
 			</data>
 		</dict>
 		<key>Modules/KuaiYinAd.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nCiv46d+99JaJCZzTAdkJkJylPA=
+			bSOKDjC4LObrCJWQsTflWi0hf5U=
 			</data>
 			<key>hash2</key>
 			<data>
-			D7l7QkxNN8AyaQftps9gRI7/RhnATWdbA5TI9x/zs8Q=
+			AM2npnItAKkTJge3LzzhhDPyXlgeerFlpX0r5ZkIgwI=
 			</data>
 		</dict>
 		<key>Modules/KuaiYinAd.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4fS/lz45UoztkBF/7etSs3Yxqpk=
+			Uq7mF8BqbYgab0yi/CSyYYoLhbw=
 			</data>
 			<key>hash2</key>
 			<data>
-			7wfsPDQTNwO/hKy0Px1UYdYdj5p17dve970OB5fbWO8=
+			jXbrqM+WNdh2crb0vrAMLSytwFzegTtcVB8nyrMP7v4=
 			</data>
 		</dict>
 		<key>Modules/KuaiYinAd.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nCiv46d+99JaJCZzTAdkJkJylPA=
+			bSOKDjC4LObrCJWQsTflWi0hf5U=
 			</data>
 			<key>hash2</key>
 			<data>
-			D7l7QkxNN8AyaQftps9gRI7/RhnATWdbA5TI9x/zs8Q=
+			AM2npnItAKkTJge3LzzhhDPyXlgeerFlpX0r5ZkIgwI=
 			</data>
 		</dict>
 		<key>Modules/KuaiYinAd.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4fS/lz45UoztkBF/7etSs3Yxqpk=
+			Uq7mF8BqbYgab0yi/CSyYYoLhbw=
 			</data>
 			<key>hash2</key>
 			<data>
-			7wfsPDQTNwO/hKy0Px1UYdYdj5p17dve970OB5fbWO8=
+			jXbrqM+WNdh2crb0vrAMLSytwFzegTtcVB8nyrMP7v4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -27,28 +27,27 @@ Pod::Spec.new do |spec|
 
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.author             = { 'LeiZhengFa' => '12456715@qq.com' }
-  spec.source       = { :git => "https://github.com/cowboyfzl/KuaiYinADSDK", :tag => "#{spec.version}"}
+  spec.source       = { :git => "https://github.com/cowboyfzl/KuaiYinADSDK.git", :tag => "#{spec.version}"}
   spec.platform      = :ios #支持平台
   spec.ios.deployment_target = "10.0"#支持iOS最低版本
   spec.frameworks    = 'UIKit','AVFoundation'
    # Swift Versions
   spec.swift_version = '5.0'
-  spec.platform     = :ios
   spec.vendored_frameworks = 'Framework/KuaiYinAd.framework'#SDK相对本文件路径
   spec.requires_arc = true
+  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64'}
   spec.dependency 'GDTMobSDK', '4.13.00'
 
   # 穿山甲
-  spec.dependency 'Ads-CN', '3.8.1.0'
+  s.dependency 'Ads-CN', '3.8.1.0'
   
   # 懒人科技聚合广告SDK
-  spec.dependency 'LRAdSDK', '1.1.15'
+  s.dependency 'LRAdSDK', '1.1.15'
 
   # topon聚合广告SDK
-  spec.dependency 'AnyThinkiOS', '5.7.65'
-  spec.dependency 'AnyThinkiOS/AnyThinkGDTAdapter', '5.7.65'
-  spec.dependency 'AnyThinkiOS/AnyThinkPangleAdapter', '5.7.65'
-  spec.dependency 'AnyThinkiOS/AnyThinkBaiduAdapter', '5.7.65'
-  spec.dependency 'AnyThinkiOS/AnyThinkKSAdapter', '5.7.65'
-
+  s.dependency 'AnyThinkiOS', '5.7.65'
+  s.dependency 'AnyThinkiOS/AnyThinkGDTAdapter', '5.7.65'
+  s.dependency 'AnyThinkiOS/AnyThinkPangleAdapter', '5.7.65'
+  s.dependency 'AnyThinkiOS/AnyThinkBaiduAdapter', '5.7.65'
+  s.dependency 'AnyThinkiOS/AnyThinkKSAdapter', '5.7.65'
 end
