@@ -23,10 +23,10 @@ Pod::Spec.new do |spec|
   这是一个广告聚合平台
                    DESC
 
-  spec.homepage     = "https://github.com/cowboyfzl/KuaiYinADSDK.git"
+  spec.homepage     = "https://github.com/cowboyfzl/KuaiYinADSDK"
 
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
-  spec.author             = { 'LeiZhengFa' => '12456715@qq.com' }
+  spec.author             = { 'LeonFa' => '12456715@qq.com' }
   spec.source       = { :git => "https://github.com/cowboyfzl/KuaiYinADSDK.git", :tag => "#{spec.version}"}
   spec.platform      = :ios, "10.0" #支持平台
   spec.ios.deployment_target = "10.0"#支持iOS最低版本
