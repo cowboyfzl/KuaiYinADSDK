@@ -1,0 +1,4 @@
+framework module KuaiYinAd {
+  header "KuaiYinAd-Swift.h"
+  requires objc
+}
