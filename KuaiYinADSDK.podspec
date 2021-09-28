@@ -39,15 +39,15 @@ Pod::Spec.new do |spec|
   spec.dependency 'GDTMobSDK', '4.13.00'
 
   # 穿山甲
-  s.dependency 'Ads-CN', '3.8.1.0'
+  spec.dependency 'Ads-CN', '3.8.1.0'
   
   # 懒人科技聚合广告SDK
-  s.dependency 'LRAdSDK', '1.1.15'
+  spec.dependency 'LRAdSDK', '1.1.15'
 
   # topon聚合广告SDK
-  s.dependency 'AnyThinkiOS', '5.7.65'
-  s.dependency 'AnyThinkiOS/AnyThinkGDTAdapter', '5.7.65'
-  s.dependency 'AnyThinkiOS/AnyThinkPangleAdapter', '5.7.65'
-  s.dependency 'AnyThinkiOS/AnyThinkBaiduAdapter', '5.7.65'
-  s.dependency 'AnyThinkiOS/AnyThinkKSAdapter', '5.7.65'
+  spec.dependency 'AnyThinkiOS', '5.7.65'
+  spec.dependency 'AnyThinkiOS/AnyThinkGDTAdapter', '5.7.65'
+  spec.dependency 'AnyThinkiOS/AnyThinkPangleAdapter', '5.7.65'
+  spec.dependency 'AnyThinkiOS/AnyThinkBaiduAdapter', '5.7.65'
+  spec.dependency 'AnyThinkiOS/AnyThinkKSAdapter', '5.7.65'
 end
