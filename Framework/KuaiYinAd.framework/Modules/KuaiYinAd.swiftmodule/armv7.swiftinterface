@@ -1,0 +1,74 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-module-flags: -target armv7-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name KuaiYinAd
+import AnyThinkRewardedVideo
+import AnyThinkSDK
+import AnyThinkSplash
+import BUAdSDK
+import Foundation
+import LRAD
+import PackageBridge
+import Swift
+import UIKit
+@objc @_hasMissingDesignatedInitializers public class HMAdRewardedModel : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum AdPlatform : Swift.String {
+  case native
+  case lanren
+  case topon
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum AdNativePlatform : Swift.String {
+  case none
+  case tt
+  case gdt
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public func convertStringToPlatform(_ string: Swift.String?) -> (KuaiYinAd.AdPlatform?, KuaiYinAd.AdNativePlatform?)
+@_hasMissingDesignatedInitializers public class HMAdManager {
+  @objc deinit
+}
+public protocol HMAdRewardedDelegate : ObjectiveC.NSObjectProtocol {
+  func adIdError(with adModel: KuaiYinAd.HMAdRewardedModel, error: Swift.Error?)
+  func didFinishLoadingAd(with adModel: KuaiYinAd.HMAdRewardedModel)
+  func didFailToLoadingAd(with adModel: KuaiYinAd.HMAdRewardedModel, error: Swift.Error?)
+  func adDidShow(for adModel: KuaiYinAd.HMAdRewardedModel)
+  func adDidClose(for adModel: KuaiYinAd.HMAdRewardedModel)
+  func adCountdownToZero(for adModel: KuaiYinAd.HMAdRewardedModel)
+  func adDidClick(for adModel: KuaiYinAd.HMAdRewardedModel)
+  func adDidClickSkip(for adModel: KuaiYinAd.HMAdRewardedModel)
+  func adPlayError(for adModel: KuaiYinAd.HMAdRewardedModel, error: Swift.Error?)
+  func adExposed(for adModel: KuaiYinAd.HMAdRewardedModel)
+  func adDidRewardSuccess(for adModel: KuaiYinAd.HMAdRewardedModel)
+}
+@_hasMissingDesignatedInitializers public class HMAdSplashManager {
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class HMAdRewardedManager : ObjectiveC.NSObject {
+  public func setAdPlatform(platform: KuaiYinAd.AdPlatform, nativePlatform: KuaiYinAd.AdNativePlatform = .tt)
+  public func show(with placementId: Swift.String, viewController: UIKit.UIViewController, delegate: KuaiYinAd.HMAdRewardedDelegate?)
+  @objc deinit
+}
+extension HMAdRewardedManager : KuaiYinAd.HMAdRewardedDelegate {
+  public func adIdError(with adModel: KuaiYinAd.HMAdRewardedModel, error: Swift.Error?)
+  public func didFinishLoadingAd(with adModel: KuaiYinAd.HMAdRewardedModel)
+  public func didFailToLoadingAd(with adModel: KuaiYinAd.HMAdRewardedModel, error: Swift.Error?)
+  public func adDidShow(for adModel: KuaiYinAd.HMAdRewardedModel)
+  public func adDidClose(for adModel: KuaiYinAd.HMAdRewardedModel)
+  public func adCountdownToZero(for adModel: KuaiYinAd.HMAdRewardedModel)
+  public func adDidClick(for adModel: KuaiYinAd.HMAdRewardedModel)
+  public func adDidClickSkip(for adModel: KuaiYinAd.HMAdRewardedModel)
+  public func adPlayError(for adModel: KuaiYinAd.HMAdRewardedModel, error: Swift.Error?)
+  public func adDidRewardSuccess(for adModel: KuaiYinAd.HMAdRewardedModel)
+  public func adExposed(for adModel: KuaiYinAd.HMAdRewardedModel)
+}

@@ -435,7 +435,7 @@
 		</dict>
 		<key>Headers/KuaiYinAd-Swift.h</key>
 		<data>
-		Rw/IgtH0a4e0oO0Ma2rWLQmRXEo=
+		/Ftj+Ioa7g6+6DhClubeymy8mvo=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -447,23 +447,23 @@
 		</data>
 		<key>Modules/KuaiYinAd.swiftmodule/Project/arm.swiftsourceinfo</key>
 		<data>
-		+q8huc1Y9qPfOWrkU3vLD6gG5Ks=
+		xb4NLUGtia4IeeeOAw6RuZFitEM=
 		</data>
 		<key>Modules/KuaiYinAd.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		uEbR0RSRThGtSM6IOtgnRc5B1SA=
+		D94jTsoT1G0M6eCVii2Q+CHxBkI=
 		</data>
 		<key>Modules/KuaiYinAd.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		uEbR0RSRThGtSM6IOtgnRc5B1SA=
+		D94jTsoT1G0M6eCVii2Q+CHxBkI=
 		</data>
 		<key>Modules/KuaiYinAd.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<data>
-		+q8huc1Y9qPfOWrkU3vLD6gG5Ks=
+		xb4NLUGtia4IeeeOAw6RuZFitEM=
 		</data>
 		<key>Modules/KuaiYinAd.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<data>
-		+q8huc1Y9qPfOWrkU3vLD6gG5Ks=
+		xb4NLUGtia4IeeeOAw6RuZFitEM=
 		</data>
 		<key>Modules/KuaiYinAd.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -471,7 +471,7 @@
 		</data>
 		<key>Modules/KuaiYinAd.swiftmodule/arm.swiftmodule</key>
 		<data>
-		jE0SP3mZpVzl6yx29APCsqDdffk=
+		eoTEU47V+RA8DemS3m+f4InP+hw=
 		</data>
 		<key>Modules/KuaiYinAd.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -479,7 +479,7 @@
 		</data>
 		<key>Modules/KuaiYinAd.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		eb01GsmYsS+rvZmMEPhggXRAYiM=
+		OyzaU5zyeJOJ/exN1CQbuT7kzO4=
 		</data>
 		<key>Modules/KuaiYinAd.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -487,7 +487,7 @@
 		</data>
 		<key>Modules/KuaiYinAd.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		eb01GsmYsS+rvZmMEPhggXRAYiM=
+		OyzaU5zyeJOJ/exN1CQbuT7kzO4=
 		</data>
 		<key>Modules/KuaiYinAd.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
@@ -495,7 +495,7 @@
 		</data>
 		<key>Modules/KuaiYinAd.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		jE0SP3mZpVzl6yx29APCsqDdffk=
+		eoTEU47V+RA8DemS3m+f4InP+hw=
 		</data>
 		<key>Modules/KuaiYinAd.swiftmodule/armv7.swiftdoc</key>
 		<data>
@@ -503,7 +503,7 @@
 		</data>
 		<key>Modules/KuaiYinAd.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		jE0SP3mZpVzl6yx29APCsqDdffk=
+		eoTEU47V+RA8DemS3m+f4InP+hw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1552,11 +1552,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Rw/IgtH0a4e0oO0Ma2rWLQmRXEo=
+			/Ftj+Ioa7g6+6DhClubeymy8mvo=
 			</data>
 			<key>hash2</key>
 			<data>
-			DFOuWsqOBcl8ceb7U93AGZDPltuQ+7Qw117v0o32BrI=
+			G5J4ZnHxArmhNamJmZf+YaRjZkspYcr2B7JA1ZlQe0c=
 			</data>
 		</dict>
 		<key>LICENSE</key>
@@ -1574,55 +1574,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+q8huc1Y9qPfOWrkU3vLD6gG5Ks=
+			xb4NLUGtia4IeeeOAw6RuZFitEM=
 			</data>
 			<key>hash2</key>
 			<data>
-			B2j6vfOP3F+KuPR1DHfO1n4QOqLa6P+HiR3z25+WJ6s=
+			JhaRc6jqMgAkOITkHeZ4Nev556bOWiSCNkPybrHq4uU=
 			</data>
 		</dict>
 		<key>Modules/KuaiYinAd.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uEbR0RSRThGtSM6IOtgnRc5B1SA=
+			D94jTsoT1G0M6eCVii2Q+CHxBkI=
 			</data>
 			<key>hash2</key>
 			<data>
-			slUD3vDWxWgtEBzfKgS4waGu5HGSZJPq1ocf1ngKUZU=
+			IeMLLT4ht9LvXkI8I4o3jDt81OertVu0raJge2Hst0A=
 			</data>
 		</dict>
 		<key>Modules/KuaiYinAd.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uEbR0RSRThGtSM6IOtgnRc5B1SA=
+			D94jTsoT1G0M6eCVii2Q+CHxBkI=
 			</data>
 			<key>hash2</key>
 			<data>
-			slUD3vDWxWgtEBzfKgS4waGu5HGSZJPq1ocf1ngKUZU=
+			IeMLLT4ht9LvXkI8I4o3jDt81OertVu0raJge2Hst0A=
 			</data>
 		</dict>
 		<key>Modules/KuaiYinAd.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+q8huc1Y9qPfOWrkU3vLD6gG5Ks=
+			xb4NLUGtia4IeeeOAw6RuZFitEM=
 			</data>
 			<key>hash2</key>
 			<data>
-			B2j6vfOP3F+KuPR1DHfO1n4QOqLa6P+HiR3z25+WJ6s=
+			JhaRc6jqMgAkOITkHeZ4Nev556bOWiSCNkPybrHq4uU=
 			</data>
 		</dict>
 		<key>Modules/KuaiYinAd.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+q8huc1Y9qPfOWrkU3vLD6gG5Ks=
+			xb4NLUGtia4IeeeOAw6RuZFitEM=
 			</data>
 			<key>hash2</key>
 			<data>
-			B2j6vfOP3F+KuPR1DHfO1n4QOqLa6P+HiR3z25+WJ6s=
+			JhaRc6jqMgAkOITkHeZ4Nev556bOWiSCNkPybrHq4uU=
 			</data>
 		</dict>
 		<key>Modules/KuaiYinAd.swiftmodule/arm.swiftdoc</key>
@@ -1640,11 +1640,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jE0SP3mZpVzl6yx29APCsqDdffk=
+			eoTEU47V+RA8DemS3m+f4InP+hw=
 			</data>
 			<key>hash2</key>
 			<data>
-			xByqXL6gZ5+1b4XSDoBxG4TQoJ7dVvb1g04dCoYV3Pw=
+			5Sy0Z5wRD9vnzPN8dKqwl8fddElonlzDXdlP2/ZlTao=
 			</data>
 		</dict>
 		<key>Modules/KuaiYinAd.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -1662,11 +1662,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eb01GsmYsS+rvZmMEPhggXRAYiM=
+			OyzaU5zyeJOJ/exN1CQbuT7kzO4=
 			</data>
 			<key>hash2</key>
 			<data>
-			7A6wdspdKmFGm9jt6cRzSRTkobDhjK+6e4z8PuqJf+Q=
+			pFJYG9MXzB8kJHAOfaNHWojbGVd4slx6rtsCRf8yD8w=
 			</data>
 		</dict>
 		<key>Modules/KuaiYinAd.swiftmodule/arm64.swiftdoc</key>
@@ -1684,11 +1684,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eb01GsmYsS+rvZmMEPhggXRAYiM=
+			OyzaU5zyeJOJ/exN1CQbuT7kzO4=
 			</data>
 			<key>hash2</key>
 			<data>
-			7A6wdspdKmFGm9jt6cRzSRTkobDhjK+6e4z8PuqJf+Q=
+			pFJYG9MXzB8kJHAOfaNHWojbGVd4slx6rtsCRf8yD8w=
 			</data>
 		</dict>
 		<key>Modules/KuaiYinAd.swiftmodule/armv7-apple-ios.swiftdoc</key>
@@ -1706,11 +1706,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jE0SP3mZpVzl6yx29APCsqDdffk=
+			eoTEU47V+RA8DemS3m+f4InP+hw=
 			</data>
 			<key>hash2</key>
 			<data>
-			xByqXL6gZ5+1b4XSDoBxG4TQoJ7dVvb1g04dCoYV3Pw=
+			5Sy0Z5wRD9vnzPN8dKqwl8fddElonlzDXdlP2/ZlTao=
 			</data>
 		</dict>
 		<key>Modules/KuaiYinAd.swiftmodule/armv7.swiftdoc</key>
@@ -1728,11 +1728,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jE0SP3mZpVzl6yx29APCsqDdffk=
+			eoTEU47V+RA8DemS3m+f4InP+hw=
 			</data>
 			<key>hash2</key>
 			<data>
-			xByqXL6gZ5+1b4XSDoBxG4TQoJ7dVvb1g04dCoYV3Pw=
+			5Sy0Z5wRD9vnzPN8dKqwl8fddElonlzDXdlP2/ZlTao=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
