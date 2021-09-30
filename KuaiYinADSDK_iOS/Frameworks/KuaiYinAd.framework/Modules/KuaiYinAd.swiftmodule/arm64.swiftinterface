@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
 // swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name KuaiYinAd
 import AnyThinkRewardedVideo
 import AnyThinkSDK
@@ -10,8 +10,8 @@ import LRAD
 import PackageBridge
 import Swift
 import UIKit
+import _Concurrency
 @objc @_hasMissingDesignatedInitializers public class HMAdRewardedModel : ObjectiveC.NSObject {
-  @objc override dynamic public init()
   @objc deinit
 }
 public enum AdPlatform : Swift.String {
@@ -59,7 +59,7 @@ public protocol HMAdRewardedDelegate : ObjectiveC.NSObjectProtocol {
   public func show(with placementId: Swift.String, viewController: UIKit.UIViewController, delegate: KuaiYinAd.HMAdRewardedDelegate?)
   @objc deinit
 }
-extension HMAdRewardedManager : KuaiYinAd.HMAdRewardedDelegate {
+extension KuaiYinAd.HMAdRewardedManager : KuaiYinAd.HMAdRewardedDelegate {
   public func adIdError(with adModel: KuaiYinAd.HMAdRewardedModel, error: Swift.Error?)
   public func didFinishLoadingAd(with adModel: KuaiYinAd.HMAdRewardedModel)
   public func didFailToLoadingAd(with adModel: KuaiYinAd.HMAdRewardedModel, error: Swift.Error?)
