@@ -8,7 +8,6 @@
 
 import Foundation
 import BUAdSDK
-import LRAD
 import AnyThinkSDK
 import PackageBridge
 public enum AdPlatform: String {
@@ -46,7 +45,7 @@ func DeBugPrint(_ string: String) {
 public class HMAdManager {
     
     // 初始化sdk
-    class func setup(platform: AdPlatform, nativePlatform: AdNativePlatform = .none, appId: String, appKey: String = "") {
+    public class func setup(platform: AdPlatform, nativePlatform: AdNativePlatform = .none, appId: String, appKey: String = "") {
         switch platform {
         case .native:
             switch nativePlatform {
@@ -66,14 +65,14 @@ public class HMAdManager {
     }
     
     // 设置日志
-    class func showDebugLog(_ logEnabled: Bool) {
+    public class func showDebugLog(_ logEnabled: Bool) {
         BUAdSDKManager.setLoglevel(logEnabled ? .debug : .info)
         LRAdManager.shared().showDebugLog(logEnabled)
         ATAPI.setLogEnabled(logEnabled)
     }
     
     // 获取广告sdk版本号
-    class func version(with platform: AdPlatform, nativePlatform: AdNativePlatform = .none) -> String? {
+    public class func version(with platform: AdPlatform, nativePlatform: AdNativePlatform = .none) -> String? {
         var version: String?
         
         switch platform {

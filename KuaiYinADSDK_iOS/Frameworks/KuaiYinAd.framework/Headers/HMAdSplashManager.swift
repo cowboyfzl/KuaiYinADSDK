@@ -20,10 +20,10 @@ public class HMAdSplashManager {
         nativePlatform = .tt
     }
     
-    static let shared = HMAdSplashManager()
+    public static let shared = HMAdSplashManager()
     
     // 设置广告平台
-    func setAdPlatform(platform: AdPlatform, nativePlatform: AdNativePlatform = .none) {
+    public func setAdPlatform(platform: AdPlatform, nativePlatform: AdNativePlatform = .none) {
         self.platform = platform
         self.nativePlatform = nativePlatform
     }
@@ -45,7 +45,7 @@ public class HMAdSplashManager {
 //    }
     
     // 展示广告
-    func show(with placementId: String, window: UIWindow, delegate: HMAdSplashDelegate?) {
+   public func show(with placementId: String, window: UIWindow, delegate: HMAdSplashDelegate?) {
         // 频繁调用show可能走到下面的判断
         if adSplash != nil {
             return
@@ -81,55 +81,55 @@ public class HMAdSplashManager {
 
 extension HMAdSplashManager: HMAdSplashDelegate {
     // 广告位错误
-    func adIdError(with adModel: HMAdSplashModel, error: Error?) {
+    public func adIdError(with adModel: HMAdSplashModel, error: Error?) {
         delegate?.adIdError(with: adModel, error: error)
         adSplash = nil
     }
     
     // 成功加载广告资源
-    func didFinishLoadingAd(with adModel: HMAdSplashModel) {
+    public func didFinishLoadingAd(with adModel: HMAdSplashModel) {
         delegate?.didFinishLoadingAd(with: adModel)
     }
     
     // 无法加载广告资源
-    func didFailToLoadingAd(with adModel: HMAdSplashModel, error: Error?) {
+    public func didFailToLoadingAd(with adModel: HMAdSplashModel, error: Error?) {
         delegate?.didFailToLoadingAd(with: adModel, error: error)
         adSplash = nil
     }
     
     // 展示开屏广告
-    func splashDidShow(for adModel: HMAdSplashModel) {
+    public func splashDidShow(for adModel: HMAdSplashModel) {
         delegate?.splashDidShow(for: adModel)
     }
 
     // 展示开屏广告失败
-    func splashDidShowFailed(for adModel: HMAdSplashModel?, error: Error?) {
+    public func splashDidShowFailed(for adModel: HMAdSplashModel?, error: Error?) {
         delegate?.splashDidShowFailed(for: adModel, error: error)
     }
     
     // 开屏广告关闭
-    func splashDidClose(for adModel: HMAdSplashModel) {
+    public func splashDidClose(for adModel: HMAdSplashModel) {
         delegate?.splashDidClose(for: adModel)
         adSplash = nil
     }
     
     // 点击的广告展示关闭
-    func splashDetailDidClose(for adModel: HMAdSplashModel) {
+    public func splashDetailDidClose(for adModel: HMAdSplashModel) {
         delegate?.splashDetailDidClose(for: adModel)
     }
     
     // 跳过倒计时结束
-    func splashCountdownToZero(for adModel: HMAdSplashModel) {
+    public func splashCountdownToZero(for adModel: HMAdSplashModel) {
         delegate?.splashCountdownToZero(for: adModel)
     }
     
     // 点击广告
-    func splashDidClick(for adModel: HMAdSplashModel) {
+    public func splashDidClick(for adModel: HMAdSplashModel) {
         delegate?.splashDidClick(for: adModel)
     }
     
     // 点击跳过
-    func splashDidClickSkip(for adModel: HMAdSplashModel) {
+    public func splashDidClickSkip(for adModel: HMAdSplashModel) {
         delegate?.splashDidClose(for: adModel)
     }
 }
