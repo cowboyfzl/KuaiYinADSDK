@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "KuaiYinADSDK"
-  spec.version      = "1.0.5"
+  spec.version      = "1.0.6"
   spec.summary      = "快音广告SDK"
 
   spec.description  = <<-DESC
@@ -40,10 +40,10 @@ Pod::Spec.new do |spec|
 
   spec.dependency 'GDTMobSDK', '4.13.00'
   # 穿山甲
-  spec.dependency 'Ads-CN', '3.8.1.0'
+  spec.dependency 'Ads-CN', '3.9.0.4'
   
   # 懒人科技聚合广告SDK
-  spec.dependency 'LRAdSDK', '1.1.15'
+  spec.dependency 'LRAdSDK', '2.0.2'
 
   # topon聚合广告SDK
   spec.dependency 'AnyThinkiOS', '5.7.65'
