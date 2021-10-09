@@ -437,9 +437,13 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Headers/kuaiyinFA.h</key>
+		<key>Headers/HMAdSplashManager.h</key>
 		<data>
-		X/KBL+Wni5RhnLAsL1AYK5r19YA=
+		c0RjZEMcw6zWxsrMiixPYTamoDs=
+		</data>
+		<key>Headers/HMAdTTSplashRegister.h</key>
+		<data>
+		ENDsODGHCMl8NxGfcUip8cAbox0=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -461,10 +465,6 @@
 		<key>LRAd.bundle/wasair.cer</key>
 		<data>
 		kiOQTmLRaWCe/fGW0kozw8JEEo8=
-		</data>
-		<key>Modules/module.modulemap</key>
-		<data>
-		zoDybq9N4PqqJFFPh3WDtkU+kI8=
 		</data>
 		<key>baidumobadsdk.bundle/bd_mob_adIcon.png</key>
 		<data>
@@ -1516,15 +1516,26 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Headers/kuaiyinFA.h</key>
+		<key>Headers/HMAdSplashManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			X/KBL+Wni5RhnLAsL1AYK5r19YA=
+			c0RjZEMcw6zWxsrMiixPYTamoDs=
 			</data>
 			<key>hash2</key>
 			<data>
-			fD1KKPyV1Okt8b6uEO7lBhpDy4EJzK3mimIZb/iHMcI=
+			pobPIZa1GRww93SSzjyzZAQBbzphspIebX8JcjjSnTM=
+			</data>
+		</dict>
+		<key>Headers/HMAdTTSplashRegister.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ENDsODGHCMl8NxGfcUip8cAbox0=
+			</data>
+			<key>hash2</key>
+			<data>
+			IcQyu1H4DS8C+m9hj6wTYfOQsWr6K9LFmmGowxye4qo=
 			</data>
 		</dict>
 		<key>LRAd.bundle/Root.plist</key>
@@ -1560,17 +1571,6 @@
 			<key>hash2</key>
 			<data>
 			s5b/loUz1u99f0BSobtm66OR3fFRhgSa7KjaawwuDGo=
-			</data>
-		</dict>
-		<key>Modules/module.modulemap</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zoDybq9N4PqqJFFPh3WDtkU+kI8=
-			</data>
-			<key>hash2</key>
-			<data>
-			/kCLlhlIzHmUC8yEhTOcA5IK+TmXl0wwk4eLzN4CnpE=
 			</data>
 		</dict>
 		<key>baidumobadsdk.bundle/bd_mob_adIcon.png</key>
