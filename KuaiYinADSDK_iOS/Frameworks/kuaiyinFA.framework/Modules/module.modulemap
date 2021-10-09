@@ -1,0 +1,6 @@
+framework module kuaiyinFA {
+  umbrella header "kuaiyinFA.h"
+
+  export *
+  module * { export * }
+}
