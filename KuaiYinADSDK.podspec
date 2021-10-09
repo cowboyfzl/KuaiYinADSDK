@@ -30,7 +30,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/cowboyfzl/KuaiYinADSDK.git", :tag => "#{spec.version}"}
   spec.platform      = :ios, "10.0" #支持平台
   spec.ios.deployment_target = "10.0"#支持iOS最低版本
-  spec.frameworks    = 'UIKit','AVFoundation', 'GDTMobSDK', 'Ads-CN', 'LRAdSDK', 'AnyThinkiOS', 'AnyThinkiOS/AnyThinkGDTAdapter', 'AnyThinkiOS/AnyThinkPangleAdapter', 'AnyThinkiOS/AnyThinkBaiduAdapter', 'AnyThinkiOS/AnyThinkKSAdapter'
+  #spec.frameworks    = 'UIKit','AVFoundation', 'GDTMobSDK', 'Ads-CN', 'LRAdSDK', 'AnyThinkiOS', 'AnyThinkiOS/AnyThinkGDTAdapter', 'AnyThinkiOS/AnyThinkPangleAdapter', 'AnyThinkiOS/AnyThinkBaiduAdapter', 'AnyThinkiOS/AnyThinkKSAdapter'
    # Swift Versions
   spec.swift_version = '5.0'
   spec.vendored_frameworks = "KuaiYinADSDK_iOS/Frameworks/*.{framework}"#SDK相对本文件路径
