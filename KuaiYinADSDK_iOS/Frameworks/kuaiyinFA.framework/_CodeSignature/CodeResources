@@ -437,6 +437,10 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Headers/kuaiyinFA.h</key>
+		<data>
+		X/KBL+Wni5RhnLAsL1AYK5r19YA=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		6piHaw5MUp9pvj2gwUa4tfgVS2o=
@@ -457,6 +461,10 @@
 		<key>LRAd.bundle/wasair.cer</key>
 		<data>
 		kiOQTmLRaWCe/fGW0kozw8JEEo8=
+		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		zoDybq9N4PqqJFFPh3WDtkU+kI8=
 		</data>
 		<key>baidumobadsdk.bundle/bd_mob_adIcon.png</key>
 		<data>
@@ -1508,6 +1516,17 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Headers/kuaiyinFA.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			X/KBL+Wni5RhnLAsL1AYK5r19YA=
+			</data>
+			<key>hash2</key>
+			<data>
+			fD1KKPyV1Okt8b6uEO7lBhpDy4EJzK3mimIZb/iHMcI=
+			</data>
+		</dict>
 		<key>LRAd.bundle/Root.plist</key>
 		<dict>
 			<key>hash</key>
@@ -1541,6 +1560,17 @@
 			<key>hash2</key>
 			<data>
 			s5b/loUz1u99f0BSobtm66OR3fFRhgSa7KjaawwuDGo=
+			</data>
+		</dict>
+		<key>Modules/module.modulemap</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zoDybq9N4PqqJFFPh3WDtkU+kI8=
+			</data>
+			<key>hash2</key>
+			<data>
+			/kCLlhlIzHmUC8yEhTOcA5IK+TmXl0wwk4eLzN4CnpE=
 			</data>
 		</dict>
 		<key>baidumobadsdk.bundle/bd_mob_adIcon.png</key>
