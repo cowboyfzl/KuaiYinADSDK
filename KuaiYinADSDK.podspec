@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "KuaiYinADSDK"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.13"
   spec.summary      = "快音广告SDK"
 
   spec.description  = <<-DESC
