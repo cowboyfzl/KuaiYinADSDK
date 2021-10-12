@@ -1,0 +1,22 @@
+{
+  "name": "KuaiYinADSDK",
+  "version": "0.1.0",
+  "summary": "A short description of KuaiYinADSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LeiZhengFa/KuaiYinADSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LeiZhengFa": "12456715@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/LeiZhengFa/KuaiYinADSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "KuaiYinADSDK/Classes/**/*"
+}

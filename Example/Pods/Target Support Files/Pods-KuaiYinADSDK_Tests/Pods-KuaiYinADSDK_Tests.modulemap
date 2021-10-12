@@ -1,0 +1,6 @@
+framework module Pods_KuaiYinADSDK_Tests {
+  umbrella header "Pods-KuaiYinADSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

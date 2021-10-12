@@ -1,42 +1,54 @@
 #
-# Be sure to run `pod lib lint KuaiYinADSDK.podspec' to ensure this is a
-# valid spec before submitting.
+#  Be sure to run `pod spec lint KuaiYinADSDK.podspec' to ensure this is a
+#  valid spec and to remove all comments including this before submitting the spec.
 #
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
+#  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
+#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-Pod::Spec.new do |s|
-  s.name             = 'KuaiYinADSDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of KuaiYinADSDK.'
+Pod::Spec.new do |spec|
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  #
+  #  These will help people to find your library, and whilst it
+  #  can feel like a chore to fill in it's definitely to your advantage. The
+  #  summary should be tweet-length, and the description more in depth.
+  #
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  spec.name         = "KuaiYinADSDK"
+  spec.version      = "1.0.0"
+  spec.summary      = "快音广告SDK"
 
-  s.homepage         = 'https://github.com/LeiZhengFa/KuaiYinADSDK'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'LeiZhengFa' => '12456715@qq.com' }
-  s.source           = { :git => 'https://github.com/LeiZhengFa/KuaiYinADSDK.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  spec.description  = <<-DESC
+  这是一个广告聚合平台
+                   DESC
 
-  s.ios.deployment_target = '9.0'
+  spec.homepage     = "https://github.com/cowboyfzl/KuaiYinADSDK"
 
-  s.source_files = 'KuaiYinADSDK/Classes/**/*'
+  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
+  spec.author             = { 'LeonFa' => '12456715@qq.com' }
+  spec.source       = { :git => "https://github.com/cowboyfzl/KuaiYinADSDK.git", :tag => "#{spec.version}"}
+  spec.platform      = :ios, "10.0" #支持平台
+  spec.ios.deployment_target = "10.0"#支持iOS最低版本
+  spec.frameworks    = 'UIKit','AVFoundation'
+   # Swift Versions
+  spec.swift_version = '5.0'
+  spec.vendored_frameworks = "KuaiYinADSDK_iOS/Frameworks/*.{framework}"#SDK相对本文件路径
+  spec.requires_arc = true
+  spec.xcconfig = { 'LD_RUNPATH_SEARCH_PATHS' => '"$(PODS_ROOT)/KuaiYinADSDK_iOS/Frameworks"' }
+  specpreserve_paths = "KuaiYinADSDK_iOS/Frameworks/*.{framework}"
+
+  spec.dependency 'GDTMobSDK', '4.13.00'
+  # 穿山甲
+  spec.dependency 'Ads-CN', '3.9.0.4'
   
-  # s.resource_bundles = {
-  #   'KuaiYinADSDK' => ['KuaiYinADSDK/Assets/*.png']
-  # }
+  # 懒人科技聚合广告SDK
+  spec.dependency 'LRAdSDK', '2.0.2'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # topon聚合广告SDK
+  spec.dependency 'AnyThinkiOS', '5.7.65'
+  spec.dependency 'AnyThinkiOS/AnyThinkGDTAdapter', '5.7.65'
+  spec.dependency 'AnyThinkiOS/AnyThinkPangleAdapter', '5.7.65'
+  spec.dependency 'AnyThinkiOS/AnyThinkBaiduAdapter', '5.7.65'
+  spec.dependency 'AnyThinkiOS/AnyThinkKSAdapter', '5.7.65'
 end

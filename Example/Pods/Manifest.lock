@@ -1,0 +1,16 @@
+PODS:
+  - KuaiYinADSDK (0.1.0)
+
+DEPENDENCIES:
+  - KuaiYinADSDK (from `../`)
+
+EXTERNAL SOURCES:
+  KuaiYinADSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KuaiYinADSDK: c12c62662e190359d49bf40fd75f469c1a52f3c4
+
+PODFILE CHECKSUM: 4a6ebf25da08f248e7a600ad0cd67ef9f1acdf43
+
+COCOAPODS: 1.11.2
