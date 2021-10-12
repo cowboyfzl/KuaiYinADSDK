@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "KuaiYinADSDK"
-  spec.version      = "1.0.13"
+  spec.version      = "1.0.14"
   spec.summary      = "快音广告SDK"
 
   spec.description  = <<-DESC
@@ -30,26 +30,11 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/cowboyfzl/KuaiYinADSDK.git", :tag => "#{spec.version}"}
   spec.platform      = :ios, "10.0" #支持平台
   spec.ios.deployment_target = "10.0"#支持iOS最低版本
-  spec.frameworks    = 'UIKit','AVFoundation'
+  #spec.frameworks    = 'UIKit','AVFoundation', 'GDTMobSDK', 'Ads-CN', 'LRAdSDK', 'AnyThinkiOS', 'AnyThinkiOS/AnyThinkGDTAdapter', 'AnyThinkiOS/AnyThinkPangleAdapter', 'AnyThinkiOS/AnyThinkBaiduAdapter', 'AnyThinkiOS/AnyThinkKSAdapter'
    # Swift Versions
   spec.swift_version = '5.0'
-  #spec.vendored_frameworks = "KuaiYinADSDK_iOS/Frameworks/*.{framework}"#SDK相对本文件路径
+  spec.vendored_frameworks = "KuaiYinADSDK_iOS/Frameworks/*.{framework}"#SDK相对本文件路径
   spec.requires_arc = true
-  #spec.xcconfig = { 'LD_RUNPATH_SEARCH_PATHS' => '"$(PODS_ROOT)/KuaiYinADSDK_iOS/Frameworks"' }
-  #specpreserve_paths = "KuaiYinADSDK_iOS/Frameworks/*.{framework}"
-  spec.source_files = 'KuaiYinADSDK/Classes/AD/**/*.{h,m}'
-  spec.public_header_files = 'KuaiYinADSDK/Classes/AD/HMAdSplashModel.h', 'KuaiYinADSDK/Classes/AD/HMAdSplashDelegate.h', 'KuaiYinADSDK/Classes/AD/HMAdATSplashAdapter.h', 'KuaiYinADSDK/Classes/AD/HMAdTTSplashAdapter.h', 'KuaiYinADSDK/Classes/AD/HMAdSplashAdapter.h', 'KuaiYinADSDK/Classes/AD/HMAdSplashManager.h', 'KuaiYinADSDK/Classes/AD/HMAdTTSplashRegister.h'
-  spec.dependency 'GDTMobSDK', '4.13.00'
-  # 穿山甲
-  spec.dependency 'Ads-CN', '3.9.0.4'
-  
-  # 懒人科技聚合广告SDK
-  spec.dependency 'LRAdSDK', '2.0.2'
-
-  # topon聚合广告SDK
-  spec.dependency 'AnyThinkiOS', '5.7.65'
-  spec.dependency 'AnyThinkiOS/AnyThinkGDTAdapter', '5.7.65'
-  spec.dependency 'AnyThinkiOS/AnyThinkPangleAdapter', '5.7.65'
-  spec.dependency 'AnyThinkiOS/AnyThinkBaiduAdapter', '5.7.65'
-  spec.dependency 'AnyThinkiOS/AnyThinkKSAdapter', '5.7.65'
+  spec.xcconfig = { 'LD_RUNPATH_SEARCH_PATHS' => '"$(PODS_ROOT)/KuaiYinADSDK_iOS/Frameworks"' }
+  specpreserve_paths = "KuaiYinADSDK_iOS/Frameworks/*.{framework}"
 end

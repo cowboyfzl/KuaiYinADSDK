@@ -1,13 +1,6 @@
 use_frameworks!
-
-platform :ios, '9.0'
-
-target 'KuaiYinADSDK_Example' do
+target 'KuaiYinADSDK_Tests' do
   pod 'KuaiYinADSDK', :path => '../'
-
-  target 'KuaiYinADSDK_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  
+  
 end

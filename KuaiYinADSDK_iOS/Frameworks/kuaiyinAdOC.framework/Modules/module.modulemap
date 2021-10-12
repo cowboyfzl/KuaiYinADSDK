@@ -1,0 +1,6 @@
+framework module kuaiyinAdOC {
+  umbrella header "kuaiyinAdOC.h"
+
+  export *
+  module * { export * }
+}
