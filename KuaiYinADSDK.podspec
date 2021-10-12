@@ -33,11 +33,12 @@ Pod::Spec.new do |spec|
   spec.frameworks    = 'UIKit','AVFoundation'
    # Swift Versions
   spec.swift_version = '5.0'
-  spec.vendored_frameworks = "KuaiYinADSDK_iOS/Frameworks/*.{framework}"#SDK相对本文件路径
+  #spec.vendored_frameworks = "KuaiYinADSDK_iOS/Frameworks/*.{framework}"#SDK相对本文件路径
   spec.requires_arc = true
-  spec.xcconfig = { 'LD_RUNPATH_SEARCH_PATHS' => '"$(PODS_ROOT)/KuaiYinADSDK_iOS/Frameworks"' }
-  specpreserve_paths = "KuaiYinADSDK_iOS/Frameworks/*.{framework}"
-
+  #spec.xcconfig = { 'LD_RUNPATH_SEARCH_PATHS' => '"$(PODS_ROOT)/KuaiYinADSDK_iOS/Frameworks"' }
+  #specpreserve_paths = "KuaiYinADSDK_iOS/Frameworks/*.{framework}"
+  spec.source_files = 'KuaiYinADSDK/Classes/AD/**/*.{h,m}'
+  spec.public_header_files = 'KuaiYinADSDK/Classes/AD/HMAdSplashModel.h', 'KuaiYinADSDK/Classes/AD/HMAdSplashDelegate.h', 'KuaiYinADSDK/Classes/AD/HMAdATSplashAdapter.h', 'KuaiYinADSDK/Classes/AD/HMAdTTSplashAdapter.h', 'KuaiYinADSDK/Classes/AD/HMAdSplashAdapter.h', 'KuaiYinADSDK/Classes/AD/HMAdSplashManager.h', 'KuaiYinADSDK/Classes/AD/HMAdTTSplashRegister.h'
   spec.dependency 'GDTMobSDK', '4.13.00'
   # 穿山甲
   spec.dependency 'Ads-CN', '3.9.0.4'
