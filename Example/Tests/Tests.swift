@@ -9,7 +9,7 @@ class Tests: XCTestCase {
     }
     
     override func tearDown() {
-        "爱搜is京东啊建设大街的煎熬"
+        "sddfsffsdfsdfasdasddfskdhsjkldfhsdlfhslkdfhlskjdfhsklfhskldfhsjlkdfhsljkfhlskfh数据水电费水电费是"
         super.tearDown()
     }
     
