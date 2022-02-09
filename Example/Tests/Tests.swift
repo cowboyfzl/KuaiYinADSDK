@@ -5,7 +5,7 @@ class Tests: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        "脸卡手机打开拉家带口垃圾的"
+        "萨拉开大历史点击卡了圣诞节了"
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
