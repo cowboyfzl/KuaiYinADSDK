@@ -5,12 +5,11 @@ class Tests: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        "萨拉开大历史点击卡了圣诞节了"
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        "// Put teardown code here. This method is called after the invocation of each test method in the class."
         super.tearDown()
     }
     
