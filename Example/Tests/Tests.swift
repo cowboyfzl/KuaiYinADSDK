@@ -8,6 +8,8 @@ class Tests: XCTestCase {
         let a = "asdadas "
         "阿萨德明看来你达克赛德晶澳科技颠三倒四拿到了你"
         "卡死了对话框拉胯还是的垃圾"
+        let b = a
+        b.map($0 + "哈哈")
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
