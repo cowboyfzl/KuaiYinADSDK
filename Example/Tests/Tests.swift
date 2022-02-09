@@ -10,6 +10,7 @@ class Tests: XCTestCase {
         "卡死了对话框拉胯还是的垃圾"
         let b = a
         b.map($0 + "哈哈")
+        let c = "拉克丝的就拉胯"
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
