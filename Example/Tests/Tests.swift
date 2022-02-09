@@ -17,6 +17,7 @@ class Tests: XCTestCase {
     }
     
     func testExample() {
+        "拉克丝打了卡框架的萨拉赫"
         // This is an example of a functional test case.
         XCTAssert(true, "Pass")
     }
